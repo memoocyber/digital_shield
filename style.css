@@ -1,0 +1,69 @@
+Body {
+    Background-color: #042042;
+    Color: white;
+    Font-family: Arial, sans-serif;
+}
+
+Header {
+    Background-color: #102a4c;
+    Padding: 15px;
+    Text-align: center;
+}
+
+A {
+    Color: #4da6ff;
+    Text-decoration: none;
+}
+
+A:hover {
+    Color: white;
+}
+
+Button {
+    Background-color: #1e5aa8;
+    Color: white;
+    Border: none;
+    Padding: 10px 15px;
+    Border-radius: 8px;
+    Cursor: pointer;
+}
+
+Button:hover {
+    Background-color: #2d7be0;
+}
+
+Body {
+    /* خلفية متحركة */
+    Background: linear-gradient(-45deg, #061429, #364a6e, #031029, #071f3f);
+    Background-size: 400% 400%;
+    Animation: moveBG 10s ease infinite;
+
+    Color: white;
+    Font-family: Arial, sans-serif;
+}
+
+/* حركة الخلفية */
+@keyframes moveBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* العناوين */
+H1, h2, h3 {
+    Text-align: rigth;
+    Color: #a2c8ee;
+    Text-shadow: 0 0 10px #9ea8b3;
+    Letter-spacing: 2px;
+    Transition: 0.3s;
+}
+
+H1:hover, h2:hover, h3:hover {
+    Transform: scale(1.05);
+}
+
+
+
+
+
+
